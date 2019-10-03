@@ -1,26 +1,19 @@
-
-
-
-
 @font-face {
   font-family: 'robotobold';
-  src: url('roboto-bold-webfont.woff2') format('woff2'),
-       url('roboto-bold-webfont.woff') format('woff');
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
 
 
 
 @font-face {
   font-family: 'robotoitalic';
-  src: url('roboto-italic-webfont.woff2') format('woff2'),
-       url('roboto-italic-webfont.woff') format('woff');
+  src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-italic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 
@@ -28,25 +21,61 @@
 
 @font-face {
   font-family: 'robotoregular';
-  src: url('roboto-regular-webfont.woff2') format('woff2'),
-       url('roboto-regular-webfont.woff') format('woff');
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
-
 
 
 @font-face {
   font-family: 'julius_sans_oneregular';
-  src: url('juliussansone-regular-webfont.woff2') format('woff2'),
-       url('juliussansone-regular-webfont.woff') format('woff');
+  src: url('../fonts/juliussansone-regular-webfont.woff2') format('woff2'),
+       url('../fonts/juliussansone-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+
+h1 {
+  color: red;
+  font-family: 'julius_sans_oneregular';
+  font-size: 35px;
+}
+
+p b {
+  font-family: 'robotobold';
 }
 
 body {
-  'julius_sans_oneregular';
+  font-family: 'robotoregular';
+}
+
+i {
+  color: blue;
+  text-decoration: 'underline';
+}
+
+ol a {
+  font-family: 'robotobold';
+}
+
+ul li {
+  font-family: 'julius_sans_oneregular';
+  line-height: 25px;
+}
+
+h3 {
+  font-family: 'robotobold';
+  font-size: 35px;
+}
+
+h2 {
+  font-family: 'julius_sans_oneregular';
+  color: purple;
+  font-size: 32px;
+}
+
+p {
+  line-height: 23px;
 }

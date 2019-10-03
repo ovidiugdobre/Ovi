@@ -1,1 +1,89 @@
+.my-div {
+  width: 500px;
+  height: 102px;
 
+  background-color: red;
+  
+  border: 1px solid green;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.second-div {
+  width: 150px;
+  height: 300px;
+
+  border-radius: 20px;
+  background: blue;
+
+  padding-top: 25px;
+  padding-bottom: 10px;
+
+  padding-left: 13px;
+  padding-right: 21px;
+}
+
+.container {
+  width: 100%;
+
+  border: 3px solid green;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;  
+}
+
+.green {
+  width: 500px;
+  height: 220px;
+
+  border: solid black 1px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.purple {
+  background: purple;
+
+  border: dotted 2px green;
+  border-radius: 40px;
+
+  padding-left: 20px;
+  padding-top: 10px; 
+  padding-bottom: 0;
+  padding-right: 15px;
+ }
+
+.turquoise {
+  background: turquoise;
+
+  border: blue 1px solid;
+  border-radius: 15px;
+
+  padding-top: 11px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.transparent {
+  border: 2px red  solid;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;    
+}
